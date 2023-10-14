@@ -18,6 +18,7 @@ git commit -m "commit message"
 
 push the the changes to your remote repository:
 git push
+git push --set-upstream origin <branch name>
 
 create new branch:
 git branch <new branch>
@@ -45,8 +46,9 @@ interactivly clean up a branches commits before rebasing
 git rebase -i
 
 
+If you are looking to recursively add all changes including those in subdirectories, you can type:
+git add -A
 
 
-
-
+git status
 
