@@ -2,5 +2,51 @@ git init   initialize the project file
 
 git clone <url> clone the project from remote
 
-git add     D:\Arun\golang\git_command.txt
+
+Make a change 
+Add a file to staging::
+
+git add     < file_name >git_command.txt
+
+stage all files::
+
+git add .
+
+commit all staged file to git::
+
+git commit -m "commit message"
+
+push the the changes to your remote repository:
+git push
+
+create new branch:
+git branch <new branch>
+
+git checkout <branch_name>
+
+git checkout -b <branch_name>    -- create and checkout the branch
+
+Delete a merged branch::
+
+git branch -d <branch>
+
+Delete a branch, whether merged or not
+
+git branch -D <branch>
+
+Add a tag to  current commit
+
+git tag <tag-name>
+
+git checkout feature
+git rebase main
+
+interactivly clean up a branches commits before rebasing
+git rebase -i
+
+
+
+
+
+
 
