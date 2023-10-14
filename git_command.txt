@@ -1,0 +1,6 @@
+git init   initialize the project file
+
+git clone <url> clone the project from remote
+
+git add     D:\Arun\golang\git_command.txt
+
